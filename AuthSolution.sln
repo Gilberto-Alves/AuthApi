@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Api", "Auth.Api\Auth.Api.csproj", "{8AA22536-2989-401F-8713-1262B829F4DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D435D86E-6BAA-4125-A35C-552BFC4165D1}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Application", "Auth.Application\Auth.Application.csproj", "{B6EB232E-DDFB-4A41-87A7-C12DD244FE65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Domain", "Auth.Domain\Auth.Domain.csproj", "{37EFD114-51C9-45F4-886D-5A573049CF39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Infrastructure", "Auth.Infrastructure\Auth.Infrastructure.csproj", "{4DE15B5D-0906-4FCD-801E-552FEB0A5CD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA22536-2989-401F-8713-1262B829F4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA22536-2989-401F-8713-1262B829F4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA22536-2989-401F-8713-1262B829F4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA22536-2989-401F-8713-1262B829F4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6EB232E-DDFB-4A41-87A7-C12DD244FE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6EB232E-DDFB-4A41-87A7-C12DD244FE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6EB232E-DDFB-4A41-87A7-C12DD244FE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6EB232E-DDFB-4A41-87A7-C12DD244FE65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EFD114-51C9-45F4-886D-5A573049CF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EFD114-51C9-45F4-886D-5A573049CF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EFD114-51C9-45F4-886D-5A573049CF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EFD114-51C9-45F4-886D-5A573049CF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE15B5D-0906-4FCD-801E-552FEB0A5CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE15B5D-0906-4FCD-801E-552FEB0A5CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE15B5D-0906-4FCD-801E-552FEB0A5CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE15B5D-0906-4FCD-801E-552FEB0A5CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
