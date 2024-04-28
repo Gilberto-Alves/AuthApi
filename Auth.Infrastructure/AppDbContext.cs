@@ -1,4 +1,5 @@
-﻿using Auth.Infrastructure.Configuration;
+﻿using Auth.Domain.Entities;
+using Auth.Infrastructure.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -13,6 +14,9 @@ public class AppDbContext : DbContext
         _configuration = configuration;
     }
 
+    public DbSet<User> Users { get; set; }
+    public DbSet<Role?> Roles { get; set; }
+    
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
         var connection = _configuration.GetConnectionString("dbContext");

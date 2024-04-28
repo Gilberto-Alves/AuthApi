@@ -2,24 +2,14 @@
 
 public class User
 {
-    public Guid Id { get; private set; }
-    public string CompleteName { get; private set; }
-    public string Email { get; private set; }
-    public string? Company { get; private set; }
-    public string? Country { get; private set; }
-    public Guid PasswordSalt { get; private set; }
-    public string PasswordHash { get; private set; }
+    public Guid Id { get; set; }
+    public string CompleteName { get; set; } = string.Empty;
+    public string Email { get; set; } = string.Empty;
+    public string? Company { get; set; }
+    public string? Country { get; set; }
+    public Guid PasswordSalt { get; set; }
+    public string PasswordHash { get; set; } = string.Empty;
 
-    public User() { }
-
-    public User(string completeName, string email, string? company, string? country, string passwordHash)
-    {
-        Id = Guid.NewGuid();
-        PasswordSalt = Guid.NewGuid();
-        CompleteName = completeName;
-        Email = email;
-        Company = company;
-        Country = country;
-        PasswordHash = passwordHash;
-    }
+    public List<Role> Roles { get; private set; } = new();
+    
 }
